@@ -5,3 +5,4 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
    2.1. Return highest frequent character
    2.2. Return lowest frequent character
    2.3. Return the characters according to the fsorted requency count
+3. Reverse the input string
