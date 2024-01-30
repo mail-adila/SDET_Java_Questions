@@ -14,3 +14,10 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
 7. Find the largest and smallest in the array
 8. Binary search on a sorted array
 9. Check if the input number is prime
+10. Sort the given array using the following algorithms
+
+      10.1. Bubble sort
+    
+      10.2. Selection sort
+    
+      10.3. Insertion sort
