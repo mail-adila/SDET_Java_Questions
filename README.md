@@ -13,3 +13,4 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
 6. Check if the input string is palindrome
 7. Find the largest and smallest in the array
 8. Binary search on a sorted array
+9. Check if the input number is prime
