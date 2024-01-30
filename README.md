@@ -21,3 +21,8 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
       10.2. Selection sort
     
       10.3. Insertion sort
+11. Print the Fibonacci series up to a limit
+
+      11.1. Without recursion
+
+      11.2. Using recursion
