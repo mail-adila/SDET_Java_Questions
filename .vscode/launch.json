@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringReverse",
+            "request": "launch",
+            "mainClass": "StringReverse",
+            "projectName": "SDET_Java_Questions_7c716e26"
+        },
+        {
+            "type": "java",
+            "name": "ArraySort",
+            "request": "launch",
+            "mainClass": "ArraySort",
+            "projectName": "SDET_Java_Questions_7c716e26"
+        },
+        {
+            "type": "java",
             "name": "factorial",
             "request": "launch",
             "mainClass": "factorial",

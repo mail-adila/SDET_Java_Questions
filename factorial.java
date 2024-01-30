@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
 
     public static int find_factorial(int n)
     {

@@ -4,9 +4,9 @@
 
 import java.util.Scanner;
 
-public class string_reverse {
-
-    public String find_reverse(String input)
+class StringReverse
+{
+    public static String find_reverse(String input)
     {
         String result = "";
         for(int j=input.length()-1; j>=0; j--)
@@ -15,11 +15,7 @@ public class string_reverse {
         }
         return result;
     }
-    
-}
 
-class Main
-{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -27,7 +23,6 @@ class Main
         String inputString = sc.nextLine();
         sc.close();
 
-        string_reverse reverse = new string_reverse();
-        System.out.println(reverse.find_reverse(inputString));
+        System.out.println(find_reverse(inputString));
     }
 }

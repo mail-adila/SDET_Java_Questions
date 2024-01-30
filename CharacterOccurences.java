@@ -34,10 +34,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class character_occurences
+public class CharacterOccurences
 {
     String input;
-    character_occurences(String inpuString)
+    CharacterOccurences(String inpuString)
     {
         this.input = inpuString;
     }
@@ -131,7 +131,7 @@ class Main
         sc.close();
 
         // instantiating the class using parameters - input string passed to the class, constructor sets it
-        character_occurences char_functions = new character_occurences(inpuString);
+        CharacterOccurences char_functions = new CharacterOccurences(inpuString);
         // call function to return the character occuring the most number of times
         System.out.println("Character occuring the most number of times: "+ char_functions.most_frequent_char(inpuString)); 
         // call function to return the charcter occuring the least number of times

@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-class Main
+class ArraySort
 {
     public static void sortInputArray(int[] input)
     {
