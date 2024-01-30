@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "Stack",
+            "projectName": "SDET_Java_Questions_7c716e26"
+        },
+        {
+            "type": "java",
             "name": "ArrayIntersection",
             "request": "launch",
             "mainClass": "ArrayIntersection",
