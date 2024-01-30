@@ -33,7 +33,6 @@ public class BinarySearch
             {
                 left = mid;
             }
-            //mid = (left + right)/2;
         }
         if(!found)
         {
