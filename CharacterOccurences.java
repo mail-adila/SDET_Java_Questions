@@ -138,7 +138,6 @@ class Main
         System.out.println("Character occuring the least number of times: "+ char_functions.least_frequent_char(inpuString)); 
         // call function to return the charcters in order of frequency
         System.out.println("Characters in order of frequency: "+ char_functions.character_sort(inpuString)); 
-
     }
 }
 
