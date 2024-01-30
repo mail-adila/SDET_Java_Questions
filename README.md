@@ -10,3 +10,4 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
    2.3. Return the characters according to the sorted frequency count
 4. Reverse the input string
 5. Find the factorial of n without recursion
+6. Check if input string is palindrome
