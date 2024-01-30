@@ -26,3 +26,4 @@ This repo contains the most common JAVA coding questions asked in SDET/Test Auto
       11.1. Without recursion
 
       11.2. Using recursion
+12. Find sum of digits of a number
