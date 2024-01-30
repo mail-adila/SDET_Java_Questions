@@ -1,3 +1,10 @@
+/*
+ * Program to implement a stack using arrays:
+ * Write a Java program to implement a stack data structure using arrays, 
+ * along with basic operations like push, pop, and peek.
+ * 
+ */
+
 public class Stack 
 {
     private int[] stack;
