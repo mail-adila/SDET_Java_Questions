@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfDigits",
+            "request": "launch",
+            "mainClass": "SumOfDigits",
+            "projectName": "SDET_Java_Questions_7c716e26"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "Fibonacci",
