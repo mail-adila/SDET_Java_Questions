@@ -1,5 +1,5 @@
 /*
- * Program to calculate the sum of digits of a alphanumberic string:
+ * Program to calculate the sum of an alphanumberic string:
  * Write a Java program to calculate the sum of digits of a alphanumeric string - values of alphabet are a=1, b=2,....z=26.
  */
 
