@@ -1,3 +1,7 @@
+/*
+ * Program to reverse a string: Write a Java program to reverse a given string without using any built-in methods.
+ */
+
 import java.util.Scanner;
 
 public class string_reverse {
