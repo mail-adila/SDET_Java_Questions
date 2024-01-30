@@ -7,10 +7,22 @@ import java.util.Scanner;
 
 public class Fibonacci 
 {   
+    public static int getFibonacciRecursion(int n) 
+    {
+        if (n <= 1) 
+        {
+            return n;
+        } 
+        else 
+        {
+            return getFibonacciRecursion(n - 1) + getFibonacciRecursion(n - 2);
+        }
+    }
+
     public static void getFibonacci(int n)
     {
         int a, b;
-        System.out.println("The fibonacci series upto "+n+" is: ");
+        System.out.println("The fibonacci series upto "+n+" (without recursion) is: ");
         if(n == 1)
         {
             System.out.println("0");
@@ -19,23 +31,21 @@ public class Fibonacci
         {
             a = 0;
             b = 1;
-            if(n==2)
+            System.out.print(a+" "+b+" ");
+            if(n>=2)
             {
-                System.out.println(a+" "+b);
-            }
-            else
-            {
-                System.out.print(a+" "+b+" ");
+                //System.out.print(a+" "+b+" ");
                 int c = a+b;
                 while(c<n)
                 {
-                    c = a+b;
                     System.out.print(c+" ");
                     a =b;
                     b = c;
+                    c = a+b;
                 }
             }
         }
+        System.out.println("");
     }
     
     public static void main(String[] args)
@@ -46,5 +56,10 @@ public class Fibonacci
         sc.close();
 
         getFibonacci(n);
+        System.out.println("The fibonacci series upto "+n+" (using recursion) is: ");
+        for (int i = 0; getFibonacciRecursion(i) < n; i++) 
+        {
+            System.out.print(getFibonacciRecursion(i) + " ");
+        }
     }
 }
