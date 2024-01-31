@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LoginTest",
+            "request": "launch",
+            "mainClass": "com.sdet.LoginTest",
+            "projectName": "selenium"
+        },
+        {
+            "type": "java",
             "name": "Stack",
             "request": "launch",
             "mainClass": "Stack",
